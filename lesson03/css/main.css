@@ -1,0 +1,20 @@
+/* 为html标签添加样式 */
+html {
+  width: 100%;
+  height: inherit;
+  background: #ddd;
+}
+/* 为canvas标签添加样式 */
+canvas {
+  display: block;
+}
+/* 为body标签添加样式 */
+body {
+  margin: 0;
+}
+/* 为button标签添加样式 */
+button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}

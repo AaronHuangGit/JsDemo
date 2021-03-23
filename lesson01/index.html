@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 因为外部javascript文件
+        asyn关键字主要作用：不会阻塞页面渲染，否则 -->
+    <script src="js/main.js" async></script>
+</head>
+
+<body>
+    <button type="button" onclick="myFunction()">点我。。。</button>
+    <script>
+        // javascript向html中插入标题和段落
+        document.write("<h1 id= \"demo\">这是一个标题</h1>");
+        document.write("<p>这是一个段落</p>");
+
+    </script>
+</body>
+
+</html>

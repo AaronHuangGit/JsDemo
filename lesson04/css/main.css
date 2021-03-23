@@ -1,0 +1,10 @@
+/* 为html标签添加样式 */
+  html {
+    width: 100%;
+    height: inherit;
+    background: white;
+  }
+  /* 为body标签添加样式 */
+  body {
+    margin: 0;
+  }
